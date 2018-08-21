@@ -1,4 +1,4 @@
 <h1>Round !PH!</h1>
 
-<button [hidden]="switch2" (click)="switch2 = true">BLARG</button>
-<button [hidden]="switch" (click)="switch = true">CARD</button>
+<button [style.left.%]="cardOne.left" [style.top.%]="cardOne.top" [hidden]="switch2" (click)="switch2 = true">{{cardOne.val}}</button>
+<button [style.left.%]="cardTwo.left" [style.top.%]="cardTwo.top" [hidden]="switch" (click)="switch = true">{{cardTwo.val}}</button>
