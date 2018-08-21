@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    display: block;
+    margin: 40px 0px 10px 20px;
+}
+
+select {
+    font-size: 20px;
+}
+
+form {
+    display: inline-block;
+}
+
+.startGame {
+    padding: 10px;
+    margin: 40px 0px 0px 260px;
+    font-size: 30px;
+    font-weight: bold;
+}

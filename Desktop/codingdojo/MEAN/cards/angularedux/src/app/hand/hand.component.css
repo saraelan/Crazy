@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .cards {
+    margin-left: 1px;
+    display: inline-block;
+    border: solid black 1px;
+    width: 19%;
+    text-align: center;
+    padding: 20px 0px;
+} */
+
+.value {
+    display: inline-block;
+    margin: 0px 0px 0px 20%;
+}
+
+.amount {
+    display: inline-block;
+    margin: 0px 0px 0px 20%;
+}
+
+.hand {
+    text-align: center;
+}
