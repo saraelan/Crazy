@@ -10,14 +10,17 @@ export class GameReducers {
 
   }
 
+
+
   gameReducer(action: any) {
 
     switch (action.type) {
-      case ADD_MOVIE:
-        const newState = [...this._movieStore.movieStates, action.payload];
-        this._movieStore.movieStore$.next(newState);
-      // default:
-      // return this._movieStore.movieStates;
+      case PLAY_GAME:
+        const newState = [...this._gameStore.gameStates, action.payload];
+        this._gameStore.gameStore$.next(newState);
+
+        case SCORE_GAME:
+        nextcard:true
     }
   }
 }
