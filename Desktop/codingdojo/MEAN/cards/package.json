@@ -1,0 +1,21 @@
+{
+  "name": "cards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular-redux/store": "^9.0.0",
+    "@ngrx/core": "^1.2.0",
+    "@ngrx/store": "^6.1.0",
+    "@ngrx/store-devtools": "^6.1.0",
+    "body-parser": "^1.18.3",
+    "path": "^0.12.7",
+    "redux": "^4.0.0"
+  }
+}
